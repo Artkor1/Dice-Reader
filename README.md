@@ -6,7 +6,7 @@ Machine learning part was done in Google Colaboratory notebook, which allowed me
 
 Application allows users to predit dice results with selected model and threshold (0.80 by default). Image with marked results can be saved to file. Labels, prediction scores and boxes can be turned on/off. Additionaly: Total sum, average dice result and other information can be found below the image. I used Python 3.9 to create the application. Graphical interface was made using PyQt5 library and OpenCV helped me work with images. 
 
-"project.png" and "project2.png" show the application in action. Accuracy of the models is satisfying, although there are certain problems, especially with more complex images for example: reading multiple visible sides of one dice instead of just the top side.
+"project.png" and "project2.png" show the application in action. Accuracy of the models is satisfying, although there are certain problems with more complex images. For example: reading multiple visible sides of one dice instead of just the top side.
 
 Trained models and the dataset are not included in the repository, because of their sheer size and volume.
 
